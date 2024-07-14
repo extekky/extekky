@@ -26,7 +26,7 @@ class Attributes(Stas):
             'MacOS': {
                 'macbook air m2'
             },
-            'Ubunu_22_04': {
+            'Ubuntu_22_04': {
                 'hp'
         }
         return langs, specialities, ide, pc

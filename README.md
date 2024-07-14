@@ -17,15 +17,17 @@ class Attributes(Stas):
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
         langs = {
             'expert'      : ['python'],
-            'intermediate': ['c++'],
-            'learning'    : ['c', 'lua', 'bash', 'assembly']
+            'intermediate': ['c', 'c++'],
+            'learning'    : ['go', 'rust', 'lua', 'bash', 'assembly']
         }
         specialities  = ['Backend reverse engineering', 'Network engineering',]
-        ide           = ['PyCharm', 'Clion']
+        ide           = ['VS_Code', 'PyCharm', 'Clion']
         pc            = {
             'MacOS': {
                 'macbook air m2'
-            }
+            },
+            'Ubunu_22_04': {
+                'hp'
         }
         return langs, specialities, ide, pc
 ```

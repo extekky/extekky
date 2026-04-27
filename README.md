@@ -17,8 +17,8 @@ class Attributes(Stas):
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str, Set[str]]]:
         langs = {
             'expert'      : ['python'],
-            'intermediate': ['c'],
-            'learning'    : ['go', 'rust', 'lua', 'bash', 'assembly']
+            'intermediate': ['c', 'lua', 'bash'],
+            'learning'    : ['go', 'rust', 'assembly']
         }
         specialities = ['Backend', 'NetOps', 'DevOps', 'SRE', 'Frontend']
         ide          = ['VS_Code', 'PyCharm', 'Clion', 'Sublime']

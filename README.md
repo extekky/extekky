@@ -21,7 +21,7 @@ class Attributes(Stas):
             'learning'    : ['go', 'rust', 'lua', 'bash', 'assembly']
         }
         specialities = ['Backend', 'NetOps', 'DevOps', 'SRE', 'Frontend']
-        ide          = ['VS_Code', 'PyCharm', 'Clion']
+        ide          = ['VS_Code', 'PyCharm', 'Clion', 'Sublime']
         pc           = {
             'MacOS'       : {'macbook air m2'},
             'Ubuntu_22_04': {'hp'}

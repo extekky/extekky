@@ -5,22 +5,22 @@ class Stas:
     pass
 
 class Attributes(Stas):
-    def contact(self) -> Tuple[str, str, str]:
-        telegram = "macronx"        
+    def contact(self) -> Tuple[List[str]]:
+        telegram = ["macronx", "stdoq"]         
         return telegram
 
     def life(self) -> Tuple[List[str], int]:
         langs = ['Russian', 'English']
-        age   = 20
+        age   = 22
         return langs, age
     
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str]]:
         langs = {
             'expert'      : ['python'],
-            'intermediate': ['c', 'c++'],
+            'intermediate': ['c'],
             'learning'    : ['go', 'rust', 'lua', 'bash', 'assembly']
         }
-        specialities  = ['Backend reverse engineering', 'Network engineering',]
+        specialities  = ['Backend', 'NetOps', 'DevOps', 'SRE', 'Frontend']
         ide           = ['VS_Code', 'PyCharm', 'Clion']
         pc            = {
             'MacOS': {

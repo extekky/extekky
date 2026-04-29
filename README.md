@@ -23,7 +23,7 @@ class Attributes(Stas):
         specialities = ['Backend', 'NetOps', 'DevOps', 'SRE', 'Frontend']
         ide          = ['VS_Code', 'PyCharm', 'Clion', 'Sublime']
         pc           = {
-            'MacOS'       : {'macbook air m2'},
+            'MacOS'       : {'macbook air m4'},
             'Ubuntu_22_04': {'hp'}
         }
         return langs, specialities, ide, pc

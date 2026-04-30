@@ -14,6 +14,16 @@ class Attributes(Stas):
         age   = 22
         return langs, age
 
+    def tools(self) -> Dict[str, List[str]]:
+        return {
+            'devops'       : ['docker', 'k8s', 'minikube', 'ansible', 'orbstack'],
+            'observability': ['grafana', 'prometheus', 'loki'],
+            'dev'          : ['git', 'gitkraken', 'tmux', 'neovim', 'nginx'],
+            'ai'           : ['ai_agents', 'openclaw', 'n8n'],
+            'databases'    : ['postgres', 'sqlite'],
+            'lab'          : ['containerlab', 'postman'],
+        }
+
     def coding(self) -> Tuple[Dict[str, List[str]], List[str], List[str], Dict[str, Set[str]]]:
         langs = {
             'expert'      : ['python'],
